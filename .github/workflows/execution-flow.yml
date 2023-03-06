@@ -78,7 +78,7 @@ jobs:
 
   report:
     if: failure()
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       name: Output Information
       run: |
