@@ -80,6 +80,6 @@ jobs:
     if: failure()
     runs-on: ubuntu-latest
     steps:
-      name: Output Information
-      run: |
-        echo "Something Tst"
+      - name: Output Information
+        run: |
+          echo "Something Tst"
